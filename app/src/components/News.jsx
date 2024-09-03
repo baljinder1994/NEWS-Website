@@ -9,7 +9,7 @@ const NewsFeed = ({ categories }) => {
     const fetchNews = async () => {
       console.log("Fetching news...");
 
-      const apiKey = '65c0d4eaa569431a9b80f9cebbdd2cf5';
+      const apiKey = '';
       try {
         const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`);
         console.log("Response received");
